@@ -1,5 +1,5 @@
 #FROM pietvandongen/docker-tomcat-development:latest
-FROM tomcat:7-jre8
+FROM tomcat:10.0.21-jre8
 MAINTAINER Sophia Parafina <sophia.parafina@docker.com>
 
 # tomcat-users.xml sets up user accounts for the Tomcat manager GUI
